@@ -1,3 +1,16 @@
+#!/bin/bash
+x=$(ls /var/lib/docker/containers)
+array=($x);
+for i in "${array[@]}"; do
+   fileName=$i;
+   echo "Clearing log for $fileName"
+   cd /var/lib/docker/containers/$fileName;
+   truncate -s 0  "$fileName-json.log";
+   ls -lrt "$fileName-json.log";
+   cd ..;
+done
+
+
 if [ x$1 == xconfig ]
 then
     if [[ -f $2 ]]

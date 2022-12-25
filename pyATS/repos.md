@@ -9,4 +9,4 @@ https://wwwin-github.cisco.com/pyATS/genieparser
 
 #### Already available library ( PARSER etc) list ( LIBARY section )
 
-https://pubhub.devnetcloud.com/media/genie-docs/docs/parsergen/tabular/index.html
+[pubhub genie-docs](https://pubhub.devnetcloud.com/media/genie-docs/docs/index.html)

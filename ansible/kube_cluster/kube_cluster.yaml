@@ -1,0 +1,9 @@
+# Krishnakumar Natarajan
+# Ansible playbook to setup Kubernetes Cluster running on a 3-Node VMware Ubuntu 22.04 OS
+
+
+# Tasks for both Master & Minon nodes
+- hosts: all
+  tasks:
+    - name: Installing Kubernetes
+      shell: /usr/bin/tdnf -y install kubernetes

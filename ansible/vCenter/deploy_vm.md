@@ -20,3 +20,47 @@ https://docs.ansible.com/ansible/2.6/vmware/scenario_clone_template.html
       state: poweredon
       wait_for_ip_address: yes
 ```
+
+https://www.virtualizationhowto.com/2020/07/ansible-deploy-multiple-vm-from-template-vmware/
+
+```
+---
+
+- name: Clone multiple VMs
+  hosts: localhost 
+  gather_facts: false
+  vars_files: 
+    multiple_vms.yml
+  tasks: 
+  - name: Clone multiple VMs from template
+    local_action:
+      module: vmware_guest
+      hostname: "{{ vcenter_hostname }}"
+      username: "{{ username }}"
+      password: "{{ password }}"
+      validate_certs: no      
+      folder: "{{ folder }}"
+      template: "{{ vmtemplate }}"
+      name: "{{ item }}"
+      cluster: "{{ vmcluster }}"
+      datacenter: CloudLocal
+      state: poweredon
+      customization_spec: "{{ customization_spec }}"
+    with_items: "{{ servers }}"
+```
+variable file 
+
+```
+---
+vcenter_hostname: <FQDN or IP of your vCenter Server>
+username: administrator@vsphere.local
+password: <your password>
+folder: testansible
+datastore: vsanDatastore
+vmtemplate: Win2019clone
+customization_spec: <your customization spec>
+vmcluster: vsancluster
+servers:
+  - test19_01
+  - test19_02
+```

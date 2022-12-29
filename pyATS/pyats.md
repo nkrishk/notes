@@ -9,6 +9,10 @@ or
 
     dev.connect(mit=True)
     
+https://pubhub.devnetcloud.com/media/genie-docs/docs/clean/supported_os_platform.html
+
+power cycler
+    
 https://pubhub.devnetcloud.com/media/unicon/docs/user_guide/proxy.html
 
 Configuring via proxies

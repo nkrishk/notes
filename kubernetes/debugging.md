@@ -39,3 +39,14 @@
                 - infra-1
 
     kubectl get pods -n inode-manager-data -o wide
+    
+    kubectl logs -n inode-manager-data -l app=inode-service-manager
+
+    
+    
+    
+    kubectl exec -it  inode-service-manager-7f9d6785f7-2xvdb -n inode-manager-data bash
+    
+    cd /opt/robot/bin/inode-service-manager/keystore
+
+    

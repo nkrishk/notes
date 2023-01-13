@@ -32,4 +32,5 @@
       version: 2
     oob-auto@oob-auto:~$
     
-    #### ipv6 example
+    
+#### ipv6 example

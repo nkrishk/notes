@@ -1,3 +1,4 @@
+#### ipv4 static
 
     [cabuchn@cabuchn CBR]$ cat /etc/sysconfig/network-scripts/ifcfg-enp1s0f0
     TYPE=Ethernet
@@ -14,7 +15,13 @@
     PREFIX=24
     GATEWAY=10.78.210.1
     
-    
+#### ipv6 static
+
+#### ipv4 dynamic
+
+#### ipv6 dynamic
+
+
     [cabuchn@cabuchn CBR]$ cat /etc/os-release
     NAME="CentOS Linux"
     VERSION="7 (Core)"

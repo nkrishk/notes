@@ -1,6 +1,8 @@
 https://www.snel.com/support/how-to-add-ipv6-on-ubuntu-16-04/
 
-#### systemctl restart networking.service
+### systemctl restart networking.service
+
+#### ipv4 and ipv6 static
 
     krishna@krishna-vm:~$ cat /etc/network/interfaces
     # interfaces(5) file used by ifup(8) and ifdown(8)

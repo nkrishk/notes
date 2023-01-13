@@ -1,5 +1,5 @@
 
-#### ipv4 example
+#### ipv4 static example
 
     oob-auto@oob-auto:~$ cat /etc/netplan/00-installer-config.yaml
     # This is the network config written by 'subiquity'
@@ -33,4 +33,12 @@
     oob-auto@oob-auto:~$
     
     
-#### ipv6 example
+#### ipv6 static example
+
+
+#### ipv4 dynamic example
+
+
+#### ipv6 dynamic example
+
+

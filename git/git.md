@@ -12,6 +12,10 @@
 
 https://stackoverflow.com/questions/3541647/git-add-vs-git-commit-a
 
+#### git add usage [ git add . ] [git add -A ] [ git add -u ]
+
+https://www.geeksforgeeks.org/difference-between-add-a-add-u-add-and-add/
+
 #### Remove file from staging area
 
     git reset HEAD -- .

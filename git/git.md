@@ -26,3 +26,7 @@ https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-stagin
 #### How to build specific tag in jenkins
 
 https://stackoverflow.com/questions/10195900/jenkins-git-plugin-how-to-build-specific-tag/22747145#22747145
+
+#### Tag help
+
+https://devconnected.com/how-to-checkout-git-tags/

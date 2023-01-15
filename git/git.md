@@ -4,7 +4,7 @@
 
 https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-staging-area
 
-#### all tags in current branch (CLI - remote)
+#### all tags in repo  (CLI - remote)
 
         krinata2@KRINATA2-M-QKVQ inode-service-manager % git tag
         local_inventory

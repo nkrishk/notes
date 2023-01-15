@@ -1,3 +1,17 @@
+#### revert after push
+
+    git reset --hard 0d5111d92a796544c64f2ddf2a1120b8e48df763
+    
+    git commit -am "reverting AuthUtil.java chages"
+    
+    git push -f
+    
+```git commit -a``` means almost[\*] the same thing as ```git add -u && git commit```.
+
+[\*] There's a subtle difference if you're not at the root directory of your repository. ```git add -u``` stages updates to files in the current directory and below, it's equivalent to ```git add -u .``` whereas ```git commit -a``` stages and commits changes to all tracked files.
+
+https://stackoverflow.com/questions/3541647/git-add-vs-git-commit-a
+
 #### Remove file from staging area
 
     git reset HEAD -- .

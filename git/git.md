@@ -16,7 +16,7 @@ https://stackoverflow.com/questions/3541647/git-add-vs-git-commit-a
 
 https://www.geeksforgeeks.org/difference-between-add-a-add-u-add-and-add/
 
-#### Remove file from staging area
+#### Remove file from staging area (it will not be deleted)
 
     git reset HEAD -- .
 

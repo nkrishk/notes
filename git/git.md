@@ -29,12 +29,6 @@ https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-stagin
         v1.0.0
         v1.0.1
         v1.1.0
-        v1.1.1
-        v2.0.0
-        v2.0.3_2.2.2
-        v2.0.3_2.3.3
-        v2.1.0-dev
-        v2.1.1_2.4.2
 
 #### to find branch of given tag (incorrect - it only prints current branch)
 
@@ -48,3 +42,15 @@ https://stackoverflow.com/questions/10195900/jenkins-git-plugin-how-to-build-spe
 #### Tag help
 
 https://devconnected.com/how-to-checkout-git-tags/
+
+#### git delete branch - local and remote
+
+https://www.git-tower.com/learn/git/faq/delete-remote-branch
+
+Local
+
+    git branch -d feature/login
+    
+Remote
+
+    git push origin --delete feature/login

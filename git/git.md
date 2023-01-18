@@ -45,6 +45,8 @@ https://devconnected.com/how-to-checkout-git-tags/
 
 #### git delete branch - local and remote
 
+Much informative - [stackoverflow](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
+
 https://www.git-tower.com/learn/git/faq/delete-remote-branch
 
 Local

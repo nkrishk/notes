@@ -36,7 +36,7 @@ https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-stagin
         v2.1.0-dev
         v2.1.1_2.4.2
 
-#### to find branch of given tag
+#### to find branch of given tag (incorrect - it only prints current branch)
 
         krinata2@KRINATA2-M-QKVQ inode-service-manager % git branch --contains tags/v2.0.3_2.2.2
         * master

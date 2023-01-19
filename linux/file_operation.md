@@ -7,4 +7,4 @@ https://stackoverflow.com/questions/40082346/how-to-check-if-a-file-exists-in-a-
 
 https://ostechnix.com/create-files-certain-size-linux/
 
-    truncate -s 5M 
+    truncate -s 5M /media/log/audit.log

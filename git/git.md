@@ -21,6 +21,11 @@ https://www.geeksforgeeks.org/difference-between-add-a-add-u-add-and-add/
     git reset HEAD -- .
 
 https://stackoverflow.com/questions/19730565/how-to-remove-files-from-git-staging-area
+#### git submodule
+
+https://gist.github.com/gitaarik/8735255
+
+
 
 #### all tags in repo  (CLI - remote)
 

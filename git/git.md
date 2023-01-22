@@ -1,3 +1,23 @@
+#### git submodules
+
+#git add submodule
+https://stackoverflow.com/questions/9035895/how-do-i-add-git-submodule-to-a-sub-directory
+    
+        git submodule add <git@github ...> folder_path
+        
+#git delete submodule
+https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule
+    
+        git rm <path-to-submodule>
+    
+#git pull latest changes in submodule
+https://stackoverflow.com/questions/1030169/pull-latest-changes-for-all-git-submodules
+    
+        git submodule update --init --recursive     # first time
+        git submodule update --recursive            # next times
+    
+        
+
 #### revert after push
 
     git reset --hard 0d5111d92a796544c64f2ddf2a1120b8e48df763

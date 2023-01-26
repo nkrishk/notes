@@ -1,4 +1,8 @@
 
+#### this is not for LVM , but we can expand for single disk(HDD) mounted to VM and then grow it later to add to LVM
+
+https://www.golinuxcloud.com/extend-resize-primary-partition-non-lvm-linux/
+
     cloud-user@chn-jenkins-agent-1:~$ sudo su -
     root@chn-jenkins-agent-1:~#
     root@chn-jenkins-agent-1:~#
@@ -79,6 +83,7 @@
 
 #### Then grow partion
 
+https://stackoverflow.com/questions/11014584/ec2-cant-resize-volume-after-increasing-size
 
     cloud-user@chn-jenkins-agent-1:~$ lsblk
     NAME                      MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS

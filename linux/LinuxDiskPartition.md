@@ -1,4 +1,6 @@
 
+## For VM
+
 #### this is not for LVM , but we can expand for single disk(HDD) mounted to VM and then grow it later to add to LVM
 
 https://www.golinuxcloud.com/extend-resize-primary-partition-non-lvm-linux/

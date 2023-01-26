@@ -1,3 +1,9 @@
+#### cronjab after reboot
+
+        (pyATS) cloud-user@chn-jenkins-agent-1:~$ crontab -l
+        @reboot sleep 50;/opt/prometheus-2.41.0.linux-amd64/prometheus &
+        @reboot sleep 60;py_doc.sh
+
 #### List cron tab
         crontab -l
         

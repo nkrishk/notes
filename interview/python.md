@@ -14,9 +14,9 @@ JOIN STRING AND FIND NUMBER OF CHARACTERS
 
 ans=24
 
-STR1="ESGERHE"
-STR2="jhgkd dfbd"
-STR3="1234567"
+           STR1="ESGERHE"
+           STR2="jhgkd dfbd"
+           STR3="1234567"
 
 
 **number of occurance of character**

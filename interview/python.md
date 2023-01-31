@@ -6,6 +6,27 @@ what is a self in python class?
 
 common data types? list operation
 
+
+## Analytical
+
+           Blueberries cost more than strawberries.
+           Blueberries cost less than raspberries.
+           Raspberries cost more than strawberries and blueberries.
+           If the first two statements are true, the third statement is
+           true =>
+           false
+.
+
+           Problem: There are two groups (Let’s say A and B) of birds and each group has a leader. 
+           Group A’s leader said that the total birds of his group become twice as the other group if one bird comes from group B. 
+           On the other hand, Group B’s leader said that the total birds of his group will be the same as the other group if one bird comes from group A. 
+           How many birds in those two groups?
+
+           Solution: Simply take the number of birds in group A as x and y for the other group. 
+           There are two algebraic equations: x+1 = 2(y-1) and x-1 = y+1. 
+           Answers will be 5 and 7 if we solve these two.
+
+
 ## String
 
 **LENGTH OF STRING**

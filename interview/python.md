@@ -8,11 +8,11 @@ common data types? list operation
 
 ## LIST
 
-5
-==
-star triangle
+5 points
 
-9
+**star triangle**
+
+input = 9
 
             *
            ***
@@ -24,7 +24,7 @@ star triangle
      ***************
     *****************
 
-3
+input = 3
 
       *
      ***
@@ -170,6 +170,7 @@ easy
 
 https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/
 https://leetcode.com/problems/first-letter-to-appear-twice/
+
     class Solution:
         def repeatedCharacter(self, s: str) -> str:
             dicta={}

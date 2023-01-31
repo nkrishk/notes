@@ -6,6 +6,70 @@ what is a self in python class?
 
 common data types? list operation
 
+## String
+
+**LENGTH OF STRING**
+
+JOIN STRING AND FIND NUMBER OF CHARACTERS
+
+ans=24
+
+STR1="ESGERHE"
+STR2="jhgkd dfbd"
+STR3="1234567"
+
+
+**number of occurance of character**
+
+           test_str = "asdfghasdfgh"
+           sub_str="as"
+           test_str.count(sub_str)
+
+**reverse a string  cat => tac**
+
+**remove space at begining and end**
+
+split the string:
+split the word in string
+
+
+https://www.geeksforgeeks.org/python-program-to-check-if-a-string-has-at-least-one-letter-and-one-number/
+
+**password is strong:**
+
+if it has 
+
+one aplhabet
+
+one number
+
+one special character !@#$%^&*()
+
+is password strong ??
+
+           def checkString(str):
+
+               # initializing flag variable
+               flag_l = False
+               flag_n = False
+
+               # checking for letter and numbers in
+               # given string
+               for i in str:
+
+                   # if string has letter
+                   if i in "abcdefghijklmnopqrstuvwxyz":
+                       flag_l = True
+
+                   # if string has number
+                   if i in "0123456789":
+                       flag_n = True
+
+               # returning and of flag
+               # for checking required condition
+               return flag_l and flag_n
+
+
 ## LIST
 
 5 points
@@ -43,6 +107,7 @@ then using iterator
 5 points
 
 Python program to combine two dictionary by adding values for common keys
+
     d1 = {'a': 100, 'b': 200, 'c':300}
     d2 = {'a': 300, 'b': 200, 'd':400}
     Sample output: Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})
@@ -114,6 +179,28 @@ if using loop also fine (-1)
         b=3
         c=a+b
         print(c)
+        print(a)
+    add()
+    print(a)
+    
+    a=2
+    def add():
+        b=3
+        c=a+b
+        print(c)
+        print(a)
+    add()
+    print(a)
+    
+    
+    a=2
+    def add():
+        global a
+        a=1
+        b=3
+        c=a+b
+        print(c)
+        print(a)
     add()
     print(a)
 

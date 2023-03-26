@@ -29,3 +29,12 @@ Here’s an example:
 The output for our code is:
 
     Hello there!It is a great day.
+    
+    
+## cycle 
+
+#### from itertools import cycle - infinite loop
+
+    from itertools import cycle
+    for i in cycle(m):
+        print(i)

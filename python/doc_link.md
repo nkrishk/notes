@@ -38,3 +38,48 @@ The output for our code is:
     from itertools import cycle
     for i in cycle(m):
         print(i)
+
+
+## Three ways of string reversal
+
+#### builtin reversed method
+
+    >>> s="string"
+    >>> r=''.join(reversed(s))
+    >>> print(r)
+    gnirts
+    >>>
+    
+#### using for loop
+
+LOOP1: element loop, start to end
+
+    >>> s="string"
+    >>> r=''
+    >>> for each in s:
+    ...     r = each + r
+    ...
+    >>> print(r)
+    gnirts
+    >>>
+    
+LOOP2: index loop start to end
+ 
+    >>> s="string"
+    >>> r=''
+    >>> for i in range(len(s)-1,-1,-1):
+    ...     r = r + s[i]
+    ...
+    >>> print(r)
+    gnirts
+    >>>
+ 
+#### using slicing
+ 
+    >>> s="string"
+    >>> r=s[::-1]
+    >>> r
+    'gnirts'
+    >>>
+
+

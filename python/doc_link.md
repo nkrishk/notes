@@ -40,7 +40,7 @@ The output for our code is:
         print(i)
 
 
-## Three ways of string reversal
+## Diffrent ways of string reversal
 
 #### builtin reversed method
 

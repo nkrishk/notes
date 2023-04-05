@@ -1,9 +1,49 @@
 
+>>> dir(dict)
+['__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__ior__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__or__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__ror__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+>>>
+
 1. Python says that the dictionary Keys should derive from the immutable data types. You can infer that only allowed types are **strings**, **numbers** or **tuples**. Check out a standard example below.
 
 2. The same key can’t have another value in the dictionary. It confirms that a duplicate key can’t exist. However, even if you try to supply a duplicate key, it’ll only modify the existing key with the value provided in the last assignment.
 
 Python doesn’t impose any constraints on the “Values” of a dictionary object. You can form them using the standard Python or any custom data types. But, as we said earlier, the “Keys” aren’t the same as “Values” and have altogether different handling.
+
+## IMP: Keys are immutable (i.e String, number, tuple )
+
+    >>> x
+    {}
+    >>> x[1]="one"                                     # int as key
+    >>> x
+    {1: 'one'}
+    >>> x['two']=2                                     # string as key
+    >>> x
+    {1: 'one', 'two': 2}
+    >>> x[(3,4)]=34                                    # tuple as key
+    >>> x
+    {1: 'one', 'two': 2, (3, 4): 34}
+    >>> x[{5:5}]=5                                     # dict as key - not allowed as dict is mutable
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: unhashable type: 'dict'
+    >>> x[[1,2]]=5                                     # list as key - not allowed as list is mutable
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: unhashable type: 'list'
+    >>>
+    >>> x[5.5]=5.5                                     # float as key
+    >>> x
+    {1: 'one', 'two': 2, (3, 4): 34, 5.5: 5.5}
+    >>>
+
+## IMP: Keys are unique
+
+if we try to assign , the latest value be taken
+
+    >>> x
+    {1: 'one', 'two': 2, (3, 4): 34, 5.5: 5.5}
+    >>> x[1]='ONE'
+    >>>
 
 ## Membership test
 

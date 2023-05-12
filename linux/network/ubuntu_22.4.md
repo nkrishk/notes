@@ -42,3 +42,8 @@
 #### ipv6 dynamic example
 
 
+### install ifconfig in ubuntu 22.4
+
+https://linuxspin.com/how-to-install-ifconfig-on-ubuntu-22-04/
+
+

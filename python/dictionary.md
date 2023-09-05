@@ -182,3 +182,23 @@ if we try to assign , the latest value be taken
     Roll No. : 12
     Subject : English
     >>>
+
+#### get in dict
+
+```get``` method avoids the traceback error in accessing the dictionary using key
+
+    >>> x={1:1,2:2,3:3}
+    >>> x[2]
+    2
+    >>> x[4]
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    KeyError: 4
+    >>>
+    >>>
+    >>> x.get(2)
+    2
+    >>> x.get(4)    # it returns None object if key does not exists in dict
+    >>> print(x.get(4))
+    None
+    >>>
